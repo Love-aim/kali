@@ -1,0 +1,16 @@
+1.apt-get install git
+
+2.git config --global user.name "git的用户名"
+
+3.git config --global user.email "git的邮箱"
+
+4.ssh-keygen -t rsa -C "git的邮箱"
+
+5.cat (保存地址文件.pub)
+
+6.打开https://github.com/网站,登陆你的账号
+
+7.setting-SSH-new ssh-key
+
+8.ssh -T git@github.com
+
